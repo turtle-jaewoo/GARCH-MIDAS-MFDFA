@@ -1,0 +1,104 @@
+﻿Category,Scenario,Model,Parameter,Value
+Direct AI,None (No GARCH),LSTM,hidden_dim,64.0
+Direct AI,None (No GARCH),LSTM,num_layers,2.0
+Direct AI,None (No GARCH),LSTM,learning_rate,0.0002051338263087451
+Direct AI,None (No GARCH),LSTM,dropout,0.07799726016810132
+Direct AI,None (No GARCH),LSTM,alpha,0.6750277604651747
+Direct AI,None (No GARCH),BI-LSTM,hidden_dim,64.0
+Direct AI,None (No GARCH),BI-LSTM,num_layers,2.0
+Direct AI,None (No GARCH),BI-LSTM,learning_rate,0.0002051338263087451
+Direct AI,None (No GARCH),BI-LSTM,dropout,0.07799726016810132
+Direct AI,None (No GARCH),BI-LSTM,alpha,0.6750277604651747
+Direct AI,None (No GARCH),GRU,hidden_dim,64.0
+Direct AI,None (No GARCH),GRU,num_layers,2.0
+Direct AI,None (No GARCH),GRU,learning_rate,0.0002051338263087451
+Direct AI,None (No GARCH),GRU,dropout,0.07799726016810132
+Direct AI,None (No GARCH),GRU,alpha,0.6750277604651747
+Direct AI,None (No GARCH),BI-GRU,hidden_dim,64.0
+Direct AI,None (No GARCH),BI-GRU,num_layers,2.0
+Direct AI,None (No GARCH),BI-GRU,learning_rate,0.0002051338263087451
+Direct AI,None (No GARCH),BI-GRU,dropout,0.07799726016810132
+Direct AI,None (No GARCH),BI-GRU,alpha,0.6750277604651747
+Direct AI,None (No GARCH),Ridge,hidden_dim,64.0
+Direct AI,None (No GARCH),Ridge,num_layers,2.0
+Direct AI,None (No GARCH),Ridge,learning_rate,0.0002051338263087451
+Direct AI,None (No GARCH),Ridge,dropout,0.07799726016810132
+Direct AI,None (No GARCH),Ridge,alpha,0.6750277604651747
+GARCH-MIDAS,Benchmark,Base Model,midas_k,15.0
+GARCH-MIDAS,Delta_H,Base Model,midas_k,15.0
+GARCH-MIDAS,Delta_Alpha,Base Model,midas_k,15.0
+Hybrid AI,Benchmark,LSTM,hidden_dim,128.0
+Hybrid AI,Benchmark,LSTM,num_layers,1.0
+Hybrid AI,Benchmark,LSTM,learning_rate,0.00013492834268013249
+Hybrid AI,Benchmark,LSTM,dropout,0.4744427686266666
+Hybrid AI,Benchmark,LSTM,alpha,9.659757127438137
+Hybrid AI,Benchmark,BI-LSTM,hidden_dim,64.0
+Hybrid AI,Benchmark,BI-LSTM,num_layers,1.0
+Hybrid AI,Benchmark,BI-LSTM,learning_rate,0.0005989003672254305
+Hybrid AI,Benchmark,BI-LSTM,dropout,0.13567451588694796
+Hybrid AI,Benchmark,BI-LSTM,alpha,8.3045013406041
+Hybrid AI,Benchmark,GRU,hidden_dim,64.0
+Hybrid AI,Benchmark,GRU,num_layers,1.0
+Hybrid AI,Benchmark,GRU,learning_rate,0.0005989003672254305
+Hybrid AI,Benchmark,GRU,dropout,0.13567451588694796
+Hybrid AI,Benchmark,GRU,alpha,8.3045013406041
+Hybrid AI,Benchmark,BI-GRU,hidden_dim,32.0
+Hybrid AI,Benchmark,BI-GRU,num_layers,2.0
+Hybrid AI,Benchmark,BI-GRU,learning_rate,0.0007591104805282694
+Hybrid AI,Benchmark,BI-GRU,dropout,0.06101911742238941
+Hybrid AI,Benchmark,BI-GRU,alpha,5.002251410101574
+Hybrid AI,Benchmark,Ridge,hidden_dim,128.0
+Hybrid AI,Benchmark,Ridge,num_layers,1.0
+Hybrid AI,Benchmark,Ridge,learning_rate,0.0040215545266902904
+Hybrid AI,Benchmark,Ridge,dropout,0.03727532183988541
+Hybrid AI,Benchmark,Ridge,alpha,9.870180672345121
+Hybrid AI,Delta_H,LSTM,hidden_dim,128.0
+Hybrid AI,Delta_H,LSTM,num_layers,1.0
+Hybrid AI,Delta_H,LSTM,learning_rate,0.00013492834268013249
+Hybrid AI,Delta_H,LSTM,dropout,0.4744427686266666
+Hybrid AI,Delta_H,LSTM,alpha,9.659757127438137
+Hybrid AI,Delta_H,BI-LSTM,hidden_dim,128.0
+Hybrid AI,Delta_H,BI-LSTM,num_layers,1.0
+Hybrid AI,Delta_H,BI-LSTM,learning_rate,0.00013492834268013249
+Hybrid AI,Delta_H,BI-LSTM,dropout,0.4744427686266666
+Hybrid AI,Delta_H,BI-LSTM,alpha,9.659757127438137
+Hybrid AI,Delta_H,GRU,hidden_dim,128.0
+Hybrid AI,Delta_H,GRU,num_layers,1.0
+Hybrid AI,Delta_H,GRU,learning_rate,0.00013492834268013249
+Hybrid AI,Delta_H,GRU,dropout,0.4744427686266666
+Hybrid AI,Delta_H,GRU,alpha,9.659757127438137
+Hybrid AI,Delta_H,BI-GRU,hidden_dim,32.0
+Hybrid AI,Delta_H,BI-GRU,num_layers,2.0
+Hybrid AI,Delta_H,BI-GRU,learning_rate,0.0007591104805282694
+Hybrid AI,Delta_H,BI-GRU,dropout,0.06101911742238941
+Hybrid AI,Delta_H,BI-GRU,alpha,5.002251410101574
+Hybrid AI,Delta_H,Ridge,hidden_dim,128.0
+Hybrid AI,Delta_H,Ridge,num_layers,1.0
+Hybrid AI,Delta_H,Ridge,learning_rate,0.0040215545266902904
+Hybrid AI,Delta_H,Ridge,dropout,0.03727532183988541
+Hybrid AI,Delta_H,Ridge,alpha,9.870180672345121
+Hybrid AI,Delta_Alpha,LSTM,hidden_dim,64.0
+Hybrid AI,Delta_Alpha,LSTM,num_layers,1.0
+Hybrid AI,Delta_Alpha,LSTM,learning_rate,0.0005989003672254305
+Hybrid AI,Delta_Alpha,LSTM,dropout,0.13567451588694796
+Hybrid AI,Delta_Alpha,LSTM,alpha,8.3045013406041
+Hybrid AI,Delta_Alpha,BI-LSTM,hidden_dim,64.0
+Hybrid AI,Delta_Alpha,BI-LSTM,num_layers,2.0
+Hybrid AI,Delta_Alpha,BI-LSTM,learning_rate,0.0002051338263087451
+Hybrid AI,Delta_Alpha,BI-LSTM,dropout,0.07799726016810132
+Hybrid AI,Delta_Alpha,BI-LSTM,alpha,0.6750277604651747
+Hybrid AI,Delta_Alpha,GRU,hidden_dim,32.0
+Hybrid AI,Delta_Alpha,GRU,num_layers,2.0
+Hybrid AI,Delta_Alpha,GRU,learning_rate,0.0007591104805282694
+Hybrid AI,Delta_Alpha,GRU,dropout,0.06101911742238941
+Hybrid AI,Delta_Alpha,GRU,alpha,5.002251410101574
+Hybrid AI,Delta_Alpha,BI-GRU,hidden_dim,64.0
+Hybrid AI,Delta_Alpha,BI-GRU,num_layers,2.0
+Hybrid AI,Delta_Alpha,BI-GRU,learning_rate,0.0002051338263087451
+Hybrid AI,Delta_Alpha,BI-GRU,dropout,0.07799726016810132
+Hybrid AI,Delta_Alpha,BI-GRU,alpha,0.6750277604651747
+Hybrid AI,Delta_Alpha,Ridge,hidden_dim,128.0
+Hybrid AI,Delta_Alpha,Ridge,num_layers,1.0
+Hybrid AI,Delta_Alpha,Ridge,learning_rate,0.0040215545266902904
+Hybrid AI,Delta_Alpha,Ridge,dropout,0.03727532183988541
+Hybrid AI,Delta_Alpha,Ridge,alpha,9.870180672345121
