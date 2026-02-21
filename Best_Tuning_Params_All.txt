@@ -1,0 +1,34 @@
+{
+    "Direct_LSTM": {
+        "hidden_dim": 64,
+        "num_layers": 1,
+        "learning_rate": 0.0019554828592078612,
+        "dropout": 0.15995884672784377
+    },
+    "Direct_BI-LSTM": {
+        "hidden_dim": 32,
+        "num_layers": 1,
+        "learning_rate": 0.0033039273076835092,
+        "dropout": 0.4523474350130921
+    },
+    "Direct_GRU": {
+        "hidden_dim": 64,
+        "num_layers": 1,
+        "learning_rate": 0.001746486515388937,
+        "dropout": 0.26047603491954774
+    },
+    "Direct_BI-GRU": {
+        "hidden_dim": 64,
+        "num_layers": 1,
+        "learning_rate": 0.0033280054956555142,
+        "dropout": 0.17537736153264144
+    },
+    "Direct_Ridge": {
+        "alpha": 9.045483645288428
+    },
+    "Hybrid_Benchmark_LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.0005227459723290348
+    }
+}
