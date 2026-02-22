@@ -30,5 +30,11 @@
         "hidden_dim": 128,
         "num_layers": 2,
         "learning_rate": 0.0005227459723290348
+    },
+    "Hybrid_Benchmark_BI-LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.00041039459523641345,
+        "dropout": 0.0
     }
 }
