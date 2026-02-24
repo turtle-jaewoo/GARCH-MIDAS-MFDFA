@@ -1,28 +1,4 @@
 {
-    "Direct_LSTM": {
-        "hidden_dim": 64,
-        "num_layers": 1,
-        "learning_rate": 0.0019554828592078612,
-        "dropout": 0.15995884672784377
-    },
-    "Direct_BI-LSTM": {
-        "hidden_dim": 32,
-        "num_layers": 1,
-        "learning_rate": 0.0033039273076835092,
-        "dropout": 0.4523474350130921
-    },
-    "Direct_GRU": {
-        "hidden_dim": 64,
-        "num_layers": 1,
-        "learning_rate": 0.001746486515388937,
-        "dropout": 0.26047603491954774
-    },
-    "Direct_BI-GRU": {
-        "hidden_dim": 64,
-        "num_layers": 1,
-        "learning_rate": 0.0033280054956555142,
-        "dropout": 0.17537736153264144
-    },
     "Direct_Ridge": {
         "alpha": 9.045483645288428
     },
@@ -34,7 +10,85 @@
     "Hybrid_Benchmark_BI-LSTM": {
         "hidden_dim": 128,
         "num_layers": 2,
-        "learning_rate": 0.00041039459523641345,
-        "dropout": 0.0
+        "learning_rate": 0.00041039459523641345
+    },
+    "Direct_LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.00029544785114464387
+    },
+    "Direct_BI-LSTM": {
+        "hidden_dim": 64,
+        "num_layers": 2,
+        "learning_rate": 0.0024540958611118033
+    },
+    "Direct_GRU": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.0010698621659698268
+    },
+    "Direct_BI-GRU": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.003311268125779644
+    },
+    "Hybrid_Benchmark_GRU": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.001161449930733941
+    },
+    "Hybrid_Benchmark_BI-GRU": {
+        "hidden_dim": 128,
+        "num_layers": 1,
+        "learning_rate": 0.0007335587523843793
+    },
+    "Hybrid_Benchmark_Ridge": {
+        "alpha": 9.484743946006285
+    },
+    "Hybrid_Delta_H_LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.000994143933055166
+    },
+    "Hybrid_Delta_H_BI-LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.0005780818118718153
+    },
+    "Hybrid_Delta_H_GRU": {
+        "hidden_dim": 128,
+        "num_layers": 1,
+        "learning_rate": 0.0014626396920460495
+    },
+    "Hybrid_Delta_H_BI-GRU": {
+        "hidden_dim": 64,
+        "num_layers": 2,
+        "learning_rate": 0.0021016829735881746
+    },
+    "Hybrid_Delta_H_Ridge": {
+        "alpha": 9.15256332388555
+    },
+    "Hybrid_Delta_Alpha_LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.001552593993872733
+    },
+    "Hybrid_Delta_Alpha_BI-LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.00039036815740000355
+    },
+    "Hybrid_Delta_Alpha_GRU": {
+        "hidden_dim": 128,
+        "num_layers": 1,
+        "learning_rate": 0.0013617895968345147
+    },
+    "Hybrid_Delta_Alpha_BI-GRU": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.0007122338844591626
+    },
+    "Hybrid_Delta_Alpha_Ridge": {
+        "alpha": 9.266641823084775
     }
 }
