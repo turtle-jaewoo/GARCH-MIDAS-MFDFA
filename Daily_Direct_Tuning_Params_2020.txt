@@ -1,0 +1,25 @@
+{
+    "Daily_Direct_LSTM": {
+        "hidden_dim": 128,
+        "num_layers": 1,
+        "learning_rate": 0.004922001148143305
+    },
+    "Daily_Direct_BI-LSTM": {
+        "hidden_dim": 64,
+        "num_layers": 2,
+        "learning_rate": 0.004945951252949704
+    },
+    "Daily_Direct_GRU": {
+        "hidden_dim": 64,
+        "num_layers": 1,
+        "learning_rate": 0.004574634246284359
+    },
+    "Daily_Direct_BI-GRU": {
+        "hidden_dim": 128,
+        "num_layers": 2,
+        "learning_rate": 0.0033839591539359384
+    },
+    "Daily_Direct_Ridge": {
+        "alpha": 9.9829903402096
+    }
+}

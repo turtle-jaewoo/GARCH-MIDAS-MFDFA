@@ -1,0 +1,98 @@
+--- Evaluation for Year: 2022 | Freq: 1 ---
+Scenario | Model | Feature Set | RMSE | Note
+--------------------------------------------------------------------------------
+[1. Baseline] | Model: GARCH(1,1) (Untuned) | Feat: Daily Return | RMSE: 1.4690 | Note: Low Freq
+[2. Baseline] | Model: GARCH(1,1) (Untuned) | Feat: 10m Return | RMSE: 1.5266 | Note: High Freq
+[3. Baseline GM] | Model: GARCH-MIDAS (Benchmark) (Untuned) | Feat: 10m + None | RMSE: 1.5223 | Note: Macro
+[3. Baseline GM] | Model: GARCH-MIDAS (Delta_H) (Untuned) | Feat: 10m + delta_H | RMSE: 1.5243 | Note: Macro
+[3. Baseline GM] | Model: GARCH-MIDAS (Delta_Alpha) (Untuned) | Feat: 10m + delta_alpha | RMSE: 1.5241 | Note: Macro
+[Direct AI (Daily)] | Model: LSTM (Untuned) | Feat: Daily Feat | RMSE: 1.4067 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: LSTM (Tuned) | Feat: Daily Feat | RMSE: 1.3501 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: BI-LSTM (Untuned) | Feat: Daily Feat | RMSE: 1.3761 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: BI-LSTM (Tuned) | Feat: Daily Feat | RMSE: 1.3841 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: GRU (Untuned) | Feat: Daily Feat | RMSE: 1.3618 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: GRU (Tuned) | Feat: Daily Feat | RMSE: 1.3589 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: BI-GRU (Untuned) | Feat: Daily Feat | RMSE: 1.3478 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: BI-GRU (Tuned) | Feat: Daily Feat | RMSE: 1.3494 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: Ridge (Untuned) | Feat: Daily Feat | RMSE: 1.3709 | Note: Low Freq AI
+[Direct AI (Daily)] | Model: Ridge (Tuned) | Feat: Daily Feat | RMSE: 1.3784 | Note: Low Freq AI
+[Direct AI (10m)] | Model: LSTM (Untuned) | Feat: No MF | RMSE: 1.2667 | Note: High Freq AI
+[Direct AI (10m)] | Model: LSTM (Tuned) | Feat: No MF | RMSE: 1.2419 | Note: High Freq AI
+[Direct AI (10m)] | Model: LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.0393 | Note: High Freq AI
+[Direct AI (10m)] | Model: LSTM (Tuned) | Feat: Full (With MF) | RMSE: 0.9489 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-LSTM (Untuned) | Feat: No MF | RMSE: 1.3277 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-LSTM (Tuned) | Feat: No MF | RMSE: 1.3429 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-LSTM (Untuned) | Feat: Full (With MF) | RMSE: 0.8893 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-LSTM (Tuned) | Feat: Full (With MF) | RMSE: 0.8862 | Note: High Freq AI
+[Direct AI (10m)] | Model: GRU (Untuned) | Feat: No MF | RMSE: 1.2375 | Note: High Freq AI
+[Direct AI (10m)] | Model: GRU (Tuned) | Feat: No MF | RMSE: 1.3014 | Note: High Freq AI
+[Direct AI (10m)] | Model: GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.0619 | Note: High Freq AI
+[Direct AI (10m)] | Model: GRU (Tuned) | Feat: Full (With MF) | RMSE: 0.9032 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-GRU (Untuned) | Feat: No MF | RMSE: 1.2858 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-GRU (Tuned) | Feat: No MF | RMSE: 1.4346 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.0353 | Note: High Freq AI
+[Direct AI (10m)] | Model: BI-GRU (Tuned) | Feat: Full (With MF) | RMSE: 0.8893 | Note: High Freq AI
+[Direct AI (10m)] | Model: Ridge (Untuned) | Feat: No MF | RMSE: 1.2158 | Note: High Freq AI
+[Direct AI (10m)] | Model: Ridge (Tuned) | Feat: No MF | RMSE: 1.2167 | Note: High Freq AI
+[Direct AI (10m)] | Model: Ridge (Untuned) | Feat: Full (With MF) | RMSE: 1.1549 | Note: High Freq AI
+[Direct AI (10m)] | Model: Ridge (Tuned) | Feat: Full (With MF) | RMSE: 1.1515 | Note: High Freq AI
+[Hybrid Benchmark] | Model: LSTM (Untuned) | Feat: No MF | RMSE: 1.6779 | Note: Correction AI
+[Hybrid Benchmark] | Model: LSTM (Tuned) | Feat: No MF | RMSE: 1.6758 | Note: Correction AI
+[Hybrid Benchmark] | Model: LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.4588 | Note: Correction AI
+[Hybrid Benchmark] | Model: LSTM (Tuned) | Feat: Full (With MF) | RMSE: 1.4213 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-LSTM (Untuned) | Feat: No MF | RMSE: 1.7156 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-LSTM (Tuned) | Feat: No MF | RMSE: 1.7172 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.2803 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-LSTM (Tuned) | Feat: Full (With MF) | RMSE: 1.3191 | Note: Correction AI
+[Hybrid Benchmark] | Model: GRU (Untuned) | Feat: No MF | RMSE: 1.6861 | Note: Correction AI
+[Hybrid Benchmark] | Model: GRU (Tuned) | Feat: No MF | RMSE: 1.6775 | Note: Correction AI
+[Hybrid Benchmark] | Model: GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.4785 | Note: Correction AI
+[Hybrid Benchmark] | Model: GRU (Tuned) | Feat: Full (With MF) | RMSE: 1.2857 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-GRU (Untuned) | Feat: No MF | RMSE: 1.8147 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-GRU (Tuned) | Feat: No MF | RMSE: 1.6124 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.2286 | Note: Correction AI
+[Hybrid Benchmark] | Model: BI-GRU (Tuned) | Feat: Full (With MF) | RMSE: 1.3503 | Note: Correction AI
+[Hybrid Benchmark] | Model: Ridge (Untuned) | Feat: No MF | RMSE: 1.5172 | Note: Correction AI
+[Hybrid Benchmark] | Model: Ridge (Tuned) | Feat: No MF | RMSE: 1.5162 | Note: Correction AI
+[Hybrid Benchmark] | Model: Ridge (Untuned) | Feat: Full (With MF) | RMSE: 1.4996 | Note: Correction AI
+[Hybrid Benchmark] | Model: Ridge (Tuned) | Feat: Full (With MF) | RMSE: 1.4226 | Note: Correction AI
+[Hybrid Delta_H] | Model: LSTM (Untuned) | Feat: No MF | RMSE: 1.7082 | Note: Correction AI
+[Hybrid Delta_H] | Model: LSTM (Tuned) | Feat: No MF | RMSE: 1.7308 | Note: Correction AI
+[Hybrid Delta_H] | Model: LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.4684 | Note: Correction AI
+[Hybrid Delta_H] | Model: LSTM (Tuned) | Feat: Full (With MF) | RMSE: 1.2976 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-LSTM (Untuned) | Feat: No MF | RMSE: 1.7162 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-LSTM (Tuned) | Feat: No MF | RMSE: 1.6767 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.3142 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-LSTM (Tuned) | Feat: Full (With MF) | RMSE: 1.2818 | Note: Correction AI
+[Hybrid Delta_H] | Model: GRU (Untuned) | Feat: No MF | RMSE: 1.7523 | Note: Correction AI
+[Hybrid Delta_H] | Model: GRU (Tuned) | Feat: No MF | RMSE: 1.7610 | Note: Correction AI
+[Hybrid Delta_H] | Model: GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.5101 | Note: Correction AI
+[Hybrid Delta_H] | Model: GRU (Tuned) | Feat: Full (With MF) | RMSE: 1.3916 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-GRU (Untuned) | Feat: No MF | RMSE: 1.6432 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-GRU (Tuned) | Feat: No MF | RMSE: 2.0102 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.2570 | Note: Correction AI
+[Hybrid Delta_H] | Model: BI-GRU (Tuned) | Feat: Full (With MF) | RMSE: 1.2677 | Note: Correction AI
+[Hybrid Delta_H] | Model: Ridge (Untuned) | Feat: No MF | RMSE: 1.5179 | Note: Correction AI
+[Hybrid Delta_H] | Model: Ridge (Tuned) | Feat: No MF | RMSE: 1.5169 | Note: Correction AI
+[Hybrid Delta_H] | Model: Ridge (Untuned) | Feat: Full (With MF) | RMSE: 1.5003 | Note: Correction AI
+[Hybrid Delta_H] | Model: Ridge (Tuned) | Feat: Full (With MF) | RMSE: 1.4240 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: LSTM (Untuned) | Feat: No MF | RMSE: 1.6182 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: LSTM (Tuned) | Feat: No MF | RMSE: 1.8241 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.4392 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: LSTM (Tuned) | Feat: Full (With MF) | RMSE: 1.2938 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-LSTM (Untuned) | Feat: No MF | RMSE: 1.6715 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-LSTM (Tuned) | Feat: No MF | RMSE: 1.6782 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-LSTM (Untuned) | Feat: Full (With MF) | RMSE: 1.2827 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-LSTM (Tuned) | Feat: Full (With MF) | RMSE: 1.3125 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: GRU (Untuned) | Feat: No MF | RMSE: 1.6554 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: GRU (Tuned) | Feat: No MF | RMSE: 2.0038 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.4443 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: GRU (Tuned) | Feat: Full (With MF) | RMSE: 1.3398 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-GRU (Untuned) | Feat: No MF | RMSE: 1.7350 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-GRU (Tuned) | Feat: No MF | RMSE: 1.6316 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-GRU (Untuned) | Feat: Full (With MF) | RMSE: 1.2842 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: BI-GRU (Tuned) | Feat: Full (With MF) | RMSE: 1.2514 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: Ridge (Untuned) | Feat: No MF | RMSE: 1.5176 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: Ridge (Tuned) | Feat: No MF | RMSE: 1.5167 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: Ridge (Untuned) | Feat: Full (With MF) | RMSE: 1.5002 | Note: Correction AI
+[Hybrid Delta_Alpha] | Model: Ridge (Tuned) | Feat: Full (With MF) | RMSE: 1.4237 | Note: Correction AI
