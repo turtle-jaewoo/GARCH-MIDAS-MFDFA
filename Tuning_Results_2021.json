@@ -1,0 +1,724 @@
+{
+    "Direct": {
+        "Ridge": {
+            "2021-01": {
+                "alpha": 0.13636021746821106
+            },
+            "2021-02": {
+                "alpha": 0.3032490759016155
+            },
+            "2021-03": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-04": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-05": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-06": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-07": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-08": {
+                "alpha": 1.286039447516265
+            },
+            "2021-09": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-10": {
+                "alpha": 0.10934148664702091
+            },
+            "2021-11": {
+                "alpha": 0.6851058436086839
+            },
+            "2021-12": {
+                "alpha": 0.10934148664702091
+            }
+        },
+        "LSTM": {
+            "2021-01": {
+                "hidden_dim": 32,
+                "num_layers": 1,
+                "learning_rate": 0.0031885709728198455
+            },
+            "2021-02": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.004796235147240427
+            },
+            "2021-03": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.0032156761666301235
+            },
+            "2021-04": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0043709904681305065
+            },
+            "2021-05": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.004045198874642271
+            },
+            "2021-06": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.003472222119404922
+            },
+            "2021-07": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0008840330693762054
+            },
+            "2021-08": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.0049777137425232
+            },
+            "2021-09": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.0033030819485143294
+            },
+            "2021-10": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0004027061919016856
+            },
+            "2021-11": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.002740129712273518
+            },
+            "2021-12": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.001989969148201005
+            }
+        },
+        "BI-LSTM": {
+            "2021-01": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0013948864209413557
+            },
+            "2021-02": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.00044167999400704133
+            },
+            "2021-03": {
+                "hidden_dim": 64,
+                "num_layers": 2,
+                "learning_rate": 0.0014299323700929572
+            },
+            "2021-04": {
+                "hidden_dim": 64,
+                "num_layers": 2,
+                "learning_rate": 0.0006006220367802247
+            },
+            "2021-05": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.003217855756164148
+            },
+            "2021-06": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0011313953580148958
+            },
+            "2021-07": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.003791039161330702
+            },
+            "2021-08": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0036779506578498776
+            },
+            "2021-09": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0043709904681305065
+            },
+            "2021-10": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0011615997473737503
+            },
+            "2021-11": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.003518432469300422
+            },
+            "2021-12": {
+                "hidden_dim": 64,
+                "num_layers": 2,
+                "learning_rate": 0.00042755085037746534
+            }
+        },
+        "GRU": {
+            "2021-01": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0029026764545066744
+            },
+            "2021-02": {
+                "hidden_dim": 64,
+                "num_layers": 2,
+                "learning_rate": 0.0032540600426036246
+            },
+            "2021-03": {
+                "hidden_dim": 64,
+                "num_layers": 1,
+                "learning_rate": 0.004981628024340584
+            },
+            "2021-04": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.002346705226081711
+            },
+            "2021-05": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.002679192938458012
+            },
+            "2021-06": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.004965094067389366
+            },
+            "2021-07": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0020935282722103618
+            },
+            "2021-08": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.004796235147240427
+            },
+            "2021-09": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.00495221744076775
+            },
+            "2021-10": {
+                "hidden_dim": 64,
+                "num_layers": 2,
+                "learning_rate": 0.00026254230948505975
+            },
+            "2021-11": {
+                "hidden_dim": 128,
+                "num_layers": 1,
+                "learning_rate": 0.001393143502334878
+            },
+            "2021-12": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.003446539961036517
+            }
+        },
+        "BI-GRU": {
+            "2021-01": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0022499450099113132
+            },
+            "2021-02": {
+                "hidden_dim": 64,
+                "num_layers": 2,
+                "learning_rate": 0.004241525103806165
+            },
+            "2021-03": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0023096463990607955
+            },
+            "2021-04": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0006604271320327017
+            },
+            "2021-05": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0027769591121516103
+            },
+            "2021-06": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0015535100704754362
+            },
+            "2021-07": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.0043709904681305065
+            },
+            "2021-08": {
+                "hidden_dim": 32,
+                "num_layers": 2,
+                "learning_rate": 0.004715630807632976
+            },
+            "2021-09": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0031032939623581533
+            },
+            "2021-10": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.0023598258493546065
+            },
+            "2021-11": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.001453508825317963
+            },
+            "2021-12": {
+                "hidden_dim": 128,
+                "num_layers": 2,
+                "learning_rate": 0.003822101832168519
+            }
+        }
+    },
+    "GARCH_K": {
+        "Benchmark": {
+            "2021-01": 7,
+            "2021-02": 7,
+            "2021-03": 7,
+            "2021-04": 2,
+            "2021-05": 2,
+            "2021-06": 2,
+            "2021-07": 2,
+            "2021-08": 7,
+            "2021-09": 3,
+            "2021-10": 5,
+            "2021-11": 7,
+            "2021-12": 3
+        },
+        "Delta_H": {
+            "2021-01": 7,
+            "2021-02": 7,
+            "2021-03": 7,
+            "2021-04": 2,
+            "2021-05": 2,
+            "2021-06": 2,
+            "2021-07": 2,
+            "2021-08": 7,
+            "2021-09": 3,
+            "2021-10": 5,
+            "2021-11": 7,
+            "2021-12": 3
+        }
+    },
+    "Hybrid": {
+        "Benchmark": {
+            "Ridge": {
+                "2021-01": {
+                    "alpha": 2.1410183521018094
+                },
+                "2021-02": {
+                    "alpha": 1.5394671842828218
+                },
+                "2021-03": {
+                    "alpha": 2.6283408518206524
+                },
+                "2021-04": {
+                    "alpha": 0.904605796095153
+                },
+                "2021-05": {
+                    "alpha": 0.10934148664702091
+                },
+                "2021-06": {
+                    "alpha": 0.13636021746821106
+                },
+                "2021-07": {
+                    "alpha": 3.1526172540366897
+                },
+                "2021-08": {
+                    "alpha": 0.9584867373330651
+                },
+                "2021-09": {
+                    "alpha": 0.22264032803044453
+                },
+                "2021-10": {
+                    "alpha": 0.10934148664702091
+                },
+                "2021-11": {
+                    "alpha": 0.10934148664702091
+                },
+                "2021-12": {
+                    "alpha": 0.23131240907680864
+                }
+            },
+            "LSTM": {
+                "2021-01": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0028076178624090306
+                },
+                "2021-02": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0015840500148279774
+                },
+                "2021-03": {
+                    "hidden_dim": 64,
+                    "num_layers": 1,
+                    "learning_rate": 0.004983305168203838
+                },
+                "2021-04": {
+                    "hidden_dim": 64,
+                    "num_layers": 2,
+                    "learning_rate": 0.0015858523104380331
+                },
+                "2021-05": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.0029206840097538486
+                },
+                "2021-06": {
+                    "hidden_dim": 32,
+                    "num_layers": 1,
+                    "learning_rate": 0.004438277669999277
+                },
+                "2021-07": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.003883257602308541
+                },
+                "2021-08": {
+                    "hidden_dim": 64,
+                    "num_layers": 1,
+                    "learning_rate": 0.0011790688138154852
+                },
+                "2021-09": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.002431110175567443
+                },
+                "2021-10": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.004393610708882166
+                },
+                "2021-11": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0024981934407581684
+                },
+                "2021-12": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.002671167480126206
+                }
+            },
+            "BI-LSTM": {
+                "2021-01": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0025590066056696147
+                },
+                "2021-02": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.004109245363068172
+                },
+                "2021-03": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.003737764391753513
+                },
+                "2021-04": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0008539104609308996
+                },
+                "2021-05": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0014626782334979747
+                },
+                "2021-06": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.003926066069969549
+                },
+                "2021-07": {
+                    "hidden_dim": 32,
+                    "num_layers": 2,
+                    "learning_rate": 0.0030282893637997074
+                },
+                "2021-08": {
+                    "hidden_dim": 64,
+                    "num_layers": 1,
+                    "learning_rate": 0.003932609172700834
+                },
+                "2021-09": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0013511365964290422
+                },
+                "2021-10": {
+                    "hidden_dim": 32,
+                    "num_layers": 2,
+                    "learning_rate": 0.004693992050570921
+                },
+                "2021-11": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0016802869900832916
+                },
+                "2021-12": {
+                    "hidden_dim": 64,
+                    "num_layers": 2,
+                    "learning_rate": 0.003971583887535526
+                }
+            },
+            "GRU": {
+                "2021-01": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0041751572536523505
+                },
+                "2021-02": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.004870711768519296
+                },
+                "2021-03": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.004984698223437789
+                },
+                "2021-04": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0017916884968402977
+                },
+                "2021-05": {
+                    "hidden_dim": 32,
+                    "num_layers": 1,
+                    "learning_rate": 0.00315547825656775
+                },
+                "2021-06": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0030282893637997074
+                },
+                "2021-07": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.00062656488392061
+                },
+                "2021-08": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.0020529288292503315
+                },
+                "2021-09": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.0036824644164360834
+                },
+                "2021-10": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.004252306680369075
+                },
+                "2021-11": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.002152900648651764
+                },
+                "2021-12": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.003119032871350091
+                }
+            },
+            "BI-GRU": {
+                "2021-01": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0037789443841440575
+                },
+                "2021-02": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.003403945247949012
+                },
+                "2021-03": {
+                    "hidden_dim": 32,
+                    "num_layers": 2,
+                    "learning_rate": 0.004850184887628831
+                },
+                "2021-04": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.003993022867408698
+                },
+                "2021-05": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.002864993436445124
+                },
+                "2021-06": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.003828238481232381
+                },
+                "2021-07": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0007150689149352954
+                },
+                "2021-08": {
+                    "hidden_dim": 128,
+                    "num_layers": 1,
+                    "learning_rate": 0.0030368347879894658
+                },
+                "2021-09": {
+                    "hidden_dim": 64,
+                    "num_layers": 1,
+                    "learning_rate": 0.0035866532326998385
+                },
+                "2021-10": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0018735116785524404
+                },
+                "2021-11": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0012546042382123573
+                },
+                "2021-12": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0012430200766392313
+                }
+            }
+        },
+        "Delta_H": {
+            "Ridge": {
+                "2021-01": {
+                    "alpha": 2.1410183521018094
+                },
+                "2021-02": {
+                    "alpha": 1.5394671842828218
+                },
+                "2021-03": {
+                    "alpha": 2.7094892938570503
+                },
+                "2021-04": {
+                    "alpha": 0.904605796095153
+                },
+                "2021-05": {
+                    "alpha": 0.10934148664702091
+                },
+                "2021-06": {
+                    "alpha": 0.13636021746821106
+                },
+                "2021-07": {
+                    "alpha": 3.1526172540366897
+                },
+                "2021-08": {
+                    "alpha": 0.9584867373330651
+                },
+                "2021-09": {
+                    "alpha": 0.22264032803044453
+                },
+                "2021-10": {
+                    "alpha": 0.10934148664702091
+                },
+                "2021-11": {
+                    "alpha": 0.10934148664702091
+                },
+                "2021-12": {
+                    "alpha": 0.23131240907680864
+                }
+            },
+            "LSTM": {
+                "2021-01": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.001981307883252251
+                },
+                "2021-02": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.002476630999768281
+                },
+                "2021-03": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.00399274131958858
+                },
+                "2021-04": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.0019987230617033104
+                },
+                "2021-05": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.002061373906530874
+                },
+                "2021-06": {
+                    "hidden_dim": 32,
+                    "num_layers": 2,
+                    "learning_rate": 0.0037551391247984786
+                },
+                "2021-07": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.003496653647757773
+                },
+                "2021-08": {
+                    "hidden_dim": 32,
+                    "num_layers": 1,
+                    "learning_rate": 0.0022528027546631275
+                },
+                "2021-09": {
+                    "hidden_dim": 32,
+                    "num_layers": 2,
+                    "learning_rate": 0.004841385931957174
+                },
+                "2021-10": {
+                    "hidden_dim": 64,
+                    "num_layers": 1,
+                    "learning_rate": 0.004869054887278569
+                },
+                "2021-11": {
+                    "hidden_dim": 64,
+                    "num_layers": 2,
+                    "learning_rate": 0.004986347106027071
+                },
+                "2021-12": {
+                    "hidden_dim": 32,
+                    "num_layers": 1,
+                    "learning_rate": 0.004994825130986183
+                }
+            },
+            "BI-LSTM": {
+                "2021-01": {
+                    "hidden_dim": 64,
+                    "num_layers": 2,
+                    "learning_rate": 0.0026545167522156682
+                },
+                "2021-02": {
+                    "hidden_dim": 128,
+                    "num_layers": 2,
+                    "learning_rate": 0.002034126624498146
+                }
+            }
+        }
+    }
+}
