@@ -1,0 +1,10 @@
+Model_ID,Best_Params
+Direct_No_MFDFA_Ridge,{'alpha': 61.0094170578795}
+Direct_No_MFDFA_LSTM,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.009252988697949072, 'dropout': 0.47244584566473874}"
+Direct_No_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0010350023086213975, 'dropout': 0.259299724484667}"
+Direct_No_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0006536288925782524, 'dropout': 0.36073494652905014}"
+Direct_No_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.001481847156736201, 'dropout': 0.3096926121563927}"
+Direct_With_MFDFA_Ridge,{'alpha': 99.07319704725585}
+Direct_With_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.004878862028350743, 'dropout': 0.11472513145306532}"
+Direct_With_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0005447583337972644, 'dropout': 0.2827870387964545}"
+Direct_With_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.00028736866990856626, 'dropout': 0.2902210570081326}"
