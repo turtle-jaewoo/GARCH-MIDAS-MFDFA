@@ -1,41 +1,41 @@
 Model_ID,Best_Params
-Direct_No_MFDFA_Ridge,{'alpha': 7.303737169107649}
-Direct_No_MFDFA_LSTM,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.0058878891804119305, 'dropout': 0.20231414189778424}"
-Direct_No_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.004168070392031782, 'dropout': 0.043278396988213674}"
-Direct_No_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.002468558761365183, 'dropout': 0.11959951035906874}"
-Direct_No_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0004970753397484194, 'dropout': 0.34365457201205185}"
-Direct_With_MFDFA_Ridge,{'alpha': 97.78592128332552}
-Direct_With_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0017789182939760132, 'dropout': 0.49342218504341795}"
-Direct_With_MFDFA_BI-LSTM,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.002975413891198834, 'dropout': 0.33255429903439043}"
-Direct_With_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0013063440181100572, 'dropout': 0.42178842604376404}"
-Direct_With_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0017591353925644779, 'dropout': 0.19132423668528414}"
-Hybrid_Benchmark_No_MFDFA_Ridge,{'alpha': 98.59680147054462}
-Hybrid_Benchmark_No_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.001426568941239357, 'dropout': 0.010292761967852532}"
-Hybrid_Benchmark_No_MFDFA_BI-LSTM,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.006304603449716555, 'dropout': 0.09238115828604032}"
-Hybrid_Benchmark_No_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.0005824245718330786, 'dropout': 0.05523387354866336}"
-Hybrid_Benchmark_No_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0017591353925644779, 'dropout': 0.0}"
-Hybrid_Benchmark_With_MFDFA_Ridge,{'alpha': 99.14746845796519}
-Hybrid_Benchmark_With_MFDFA_LSTM,"{'hidden_dim': 32, 'num_layers': 2, 'learning_rate': 0.0001037857256986505, 'dropout': 0.2012690082670728}"
-Hybrid_Benchmark_With_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0046408216933897465, 'dropout': 0.30768969793155604}"
-Hybrid_Benchmark_With_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0005859566451596821, 'dropout': 0.4086406841946857}"
-Hybrid_Benchmark_With_MFDFA_BI-GRU,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00011148983638247606, 'dropout': 0.4985262517994053}"
-Hybrid_Delta_H_No_MFDFA_Ridge,{'alpha': 99.14746845796519}
-Hybrid_Delta_H_No_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0012691092983074742, 'dropout': 0.03959454654164757}"
-Hybrid_Delta_H_No_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0021112182627482583, 'dropout': 0.3618885015418633}"
-Hybrid_Delta_H_No_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0005859566451596821, 'dropout': 0.0}"
-Hybrid_Delta_H_No_MFDFA_BI-GRU,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.0012513176228275424, 'dropout': 0.16706974109263772}"
-Hybrid_Delta_H_With_MFDFA_Ridge,{'alpha': 99.14746845796519}
-Hybrid_Delta_H_With_MFDFA_LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.000113902759140545, 'dropout': 0.16041519118204306}"
-Hybrid_Delta_H_With_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0017227298125415044, 'dropout': 0.4149963555344519}"
-Hybrid_Delta_H_With_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0003826439073158095, 'dropout': 0.3197909740380852}"
-Hybrid_Delta_H_With_MFDFA_BI-GRU,"{'hidden_dim': 32, 'num_layers': 2, 'learning_rate': 0.0001073414375586868, 'dropout': 0.3201373783904259}"
-Hybrid_Delta_Alpha_No_MFDFA_Ridge,{'alpha': 99.14746845796519}
-Hybrid_Delta_Alpha_No_MFDFA_LSTM,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.004135268896124378, 'dropout': 0.08051810050966976}"
-Hybrid_Delta_Alpha_No_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0017227298125415044, 'dropout': 0.0}"
-Hybrid_Delta_Alpha_No_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.00032076880089066653, 'dropout': 0.20164573628638563}"
-Hybrid_Delta_Alpha_No_MFDFA_BI-GRU,"{'hidden_dim': 64, 'num_layers': 2, 'learning_rate': 0.0006815694775993598, 'dropout': 0.1661835800043327}"
-Hybrid_Delta_Alpha_With_MFDFA_Ridge,{'alpha': 99.14746845796519}
-Hybrid_Delta_Alpha_With_MFDFA_LSTM,"{'hidden_dim': 64, 'num_layers': 2, 'learning_rate': 0.004948532143910698, 'dropout': 0.21684410836792728}"
-Hybrid_Delta_Alpha_With_MFDFA_BI-LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.0001677326782246453, 'dropout': 0.18747832212046128}"
-Hybrid_Delta_Alpha_With_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 2, 'learning_rate': 0.0006833444406769856, 'dropout': 0.23474207867245972}"
-Hybrid_Delta_Alpha_With_MFDFA_BI-GRU,"{'hidden_dim': 32, 'num_layers': 2, 'learning_rate': 0.0019655966526845687, 'dropout': 0.20695042718896778}"
+Direct_No_MFDFA_Ridge,{'alpha': 1.0}
+Direct_No_MFDFA_LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.0038707292324088776, 'dropout': 0.49682589330172017}"
+Direct_No_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0018864953795923428, 'dropout': 0.3574396672683494}"
+Direct_No_MFDFA_GRU,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.0008506058743348116, 'dropout': 0.43393893238909526}"
+Direct_No_MFDFA_BI-GRU,"{'hidden_dim': 64, 'num_layers': 2, 'learning_rate': 0.000643317476495245, 'dropout': 0.3816608850793882}"
+Direct_With_MFDFA_Ridge,{'alpha': 95.76351561059457}
+Direct_With_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.002447084563559556, 'dropout': 0.42151700178305523}"
+Direct_With_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0005177830718770732, 'dropout': 0.35719575128965475}"
+Direct_With_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0015743790320741063, 'dropout': 0.15522872120812992}"
+Direct_With_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.00018500996563213754, 'dropout': 0.4621594703224758}"
+Hybrid_Benchmark_No_MFDFA_Ridge,{'alpha': 97.2161314796515}
+Hybrid_Benchmark_No_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.002818386230282164, 'dropout': 0.13680689589082534}"
+Hybrid_Benchmark_No_MFDFA_BI-LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.00444633032770987, 'dropout': 0.22857246062989758}"
+Hybrid_Benchmark_No_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0004534691989045316, 'dropout': 0.490977736628609}"
+Hybrid_Benchmark_No_MFDFA_BI-GRU,"{'hidden_dim': 64, 'num_layers': 2, 'learning_rate': 0.0023504406560487462, 'dropout': 0.2669461850210302}"
+Hybrid_Benchmark_With_MFDFA_Ridge,{'alpha': 98.58792134077927}
+Hybrid_Benchmark_With_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.009567311957225454, 'dropout': 0.3895186354623835}"
+Hybrid_Benchmark_With_MFDFA_BI-LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00011068498245390364, 'dropout': 0.3002985216119115}"
+Hybrid_Benchmark_With_MFDFA_GRU,"{'hidden_dim': 32, 'num_layers': 2, 'learning_rate': 0.00010168992428119938, 'dropout': 0.3610692870362318}"
+Hybrid_Benchmark_With_MFDFA_BI-GRU,"{'hidden_dim': 32, 'num_layers': 2, 'learning_rate': 0.00010266794164640656, 'dropout': 0.010630476820628607}"
+Hybrid_Delta_H_No_MFDFA_Ridge,{'alpha': 99.19082348205363}
+Hybrid_Delta_H_No_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0014371888822303591, 'dropout': 0.16675597051483126}"
+Hybrid_Delta_H_No_MFDFA_BI-LSTM,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.0027690559047478156, 'dropout': 0.04253864519237688}"
+Hybrid_Delta_H_No_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0006294697110367663, 'dropout': 0.3711670723804379}"
+Hybrid_Delta_H_No_MFDFA_BI-GRU,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.0038518242018178808, 'dropout': 0.04142876800155587}"
+Hybrid_Delta_H_With_MFDFA_Ridge,{'alpha': 95.71433044980293}
+Hybrid_Delta_H_With_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0010873393951238099, 'dropout': 0.2138968431790383}"
+Hybrid_Delta_H_With_MFDFA_BI-LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00010080152435295485, 'dropout': 0.12418240833067153}"
+Hybrid_Delta_H_With_MFDFA_GRU,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00010211541014639302, 'dropout': 0.3825475764725595}"
+Hybrid_Delta_H_With_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.00010201434261875452, 'dropout': 0.4247217769646732}"
+Hybrid_Delta_Alpha_No_MFDFA_Ridge,{'alpha': 99.2225210690095}
+Hybrid_Delta_Alpha_No_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0013884784091895276, 'dropout': 0.2197137056587778}"
+Hybrid_Delta_Alpha_No_MFDFA_BI-LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00017962276133636837, 'dropout': 0.3999424627584811}"
+Hybrid_Delta_Alpha_No_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 1, 'learning_rate': 0.0008874990597288692, 'dropout': 0.34428838413649876}"
+Hybrid_Delta_Alpha_No_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0007745460625310814, 'dropout': 0.10607769780362453}"
+Hybrid_Delta_Alpha_With_MFDFA_Ridge,{'alpha': 91.16140887010789}
+Hybrid_Delta_Alpha_With_MFDFA_LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00010041794346466774, 'dropout': 0.0031266461989280514}"
+Hybrid_Delta_Alpha_With_MFDFA_BI-LSTM,"{'hidden_dim': 32, 'num_layers': 1, 'learning_rate': 0.00010220455130860865, 'dropout': 0.2538256435017149}"
+Hybrid_Delta_Alpha_With_MFDFA_GRU,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.00022977175806574354, 'dropout': 0.06884862117042301}"
+Hybrid_Delta_Alpha_With_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 2, 'learning_rate': 0.0004181839968634959, 'dropout': 0.002550172063329057}"
