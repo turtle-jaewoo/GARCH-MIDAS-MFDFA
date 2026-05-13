@@ -1,0 +1,11 @@
+Model_ID,Best_Params
+Hybrid_Delta_H_No_MFDFA_Ridge,{'alpha': 99.57716180695333}
+Hybrid_Delta_H_No_MFDFA_LSTM,"{'hidden_dim': 128, 'num_layers': 1, 'learning_rate': 0.0037965330791689673, 'dropout': 0.40912937854667136}"
+Hybrid_Delta_H_No_MFDFA_BI-LSTM,"{'hidden_dim': 64, 'num_layers': 3, 'learning_rate': 0.003397593787778234, 'dropout': 0.39425034661495484}"
+Hybrid_Delta_H_No_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 3, 'learning_rate': 0.004518295761804111, 'dropout': 0.3978262978550397}"
+Hybrid_Delta_H_No_MFDFA_BI-GRU,"{'hidden_dim': 128, 'num_layers': 3, 'learning_rate': 0.0007120809929285477, 'dropout': 0.4062680895693363}"
+Hybrid_Delta_H_With_MFDFA_Ridge,{'alpha': 95.72247515477412}
+Hybrid_Delta_H_With_MFDFA_LSTM,"{'hidden_dim': 64, 'num_layers': 3, 'learning_rate': 0.00488883310501927, 'dropout': 0.4312909538837218}"
+Hybrid_Delta_H_With_MFDFA_BI-LSTM,"{'hidden_dim': 64, 'num_layers': 2, 'learning_rate': 0.002, 'dropout': 0.3}"
+Hybrid_Delta_H_With_MFDFA_GRU,"{'hidden_dim': 64, 'num_layers': 3, 'learning_rate': 0.006184002088466747, 'dropout': 0.39632611131067086}"
+Hybrid_Delta_H_With_MFDFA_BI-GRU,"{'hidden_dim': 32, 'num_layers': 3, 'learning_rate': 0.00011776641998817736, 'dropout': 0.42562537402253636}"
